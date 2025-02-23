@@ -4,9 +4,13 @@ Below is an updated README.md that incorporates installation/setup instructions,
 
 A responsive blog application built with Next.js, Tailwind CSS, and TypeScript. This project demonstrates static generation, dynamic routing, and client-side interactivity with advanced features like hashtag filtering.
 
+## Live Demo
+
+Check out the live application: [Blog App Demo](https://blog-app-j3vn-awqby9wpo-andreeas-projects-37a38bd6.vercel.app/)
+
 ## Features
 
-- **Next.js App Router:** Utilizes Next.js’ new App Router for file‑based routing.
+- **Next.js App Router:** Utilizes Next.js' new App Router for file‑based routing.
 - **Tailwind CSS:** Provides a responsive and modern UI.
 - **Dynamic Routing & Static Generation:** Fetches blog posts from the JSONPlaceholder API, pre-renders dynamic post detail pages using `generateStaticParams`.
 - **Hashtag Filtering:** Implements client-side interactivity allowing users to filter blog posts by dummy hashtags.
@@ -69,7 +73,7 @@ The homepage (src/app/page.tsx) and post details page (src/app/post/[id]/page.ts
 	•	Client Components:
 The PostsGrid component (src/components/PostsGrid.tsx) is a client component that introduces interactive filtering via dummy hashtags. It maintains its own state to update the displayed posts based on the selected hashtag.
 	•	Navigation:
-The NavBar component (src/components/NavBar.tsx) provides navigation between the Home and About pages, using Next.js’ usePathname for active route styling.
+The NavBar component (src/components/NavBar.tsx) provides navigation between the Home and About pages, using Next.js' usePathname for active route styling.
 	•	Styling:
 Tailwind CSS is used throughout to ensure a responsive design that adapts to desktop, tablet, and mobile screens.
 
@@ -92,4 +96,10 @@ To explore more about the technologies used, check out the following resources:
 License
 
 This project is licensed under the MIT License.
+
+## Deployment Status
+
+The application is successfully deployed on Vercel and automatically updates with each push to the main branch.
+
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://blog-app-j3vn-awqby9wpo-andreeas-projects-37a38bd6.vercel.app/)
 ```
