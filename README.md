@@ -4,7 +4,7 @@ A responsive blog application built with Next.js, Tailwind CSS, and TypeScript. 
 
 ## Live Demo
 
-Check out the live application: [Blog App Demo](https://blog-app-j3vn-awqby9wpo-andreeas-projects-37a38bd6.vercel.app/)
+Check out the live application: [Blog App Demo](https://blog-app-j3vn-git-main-andreeas-projects-37a38bd6.vercel.app/)
 
 ## Features
 
