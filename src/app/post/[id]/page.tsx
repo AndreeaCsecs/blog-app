@@ -23,10 +23,20 @@ export async function generateStaticParams() {
 }
 
 export default async function PostPage({ params }: PageProps) {
-  const { id } = params;
+  const { id } = await params;
+
+  if (!id) {
+    return <div>Loading...</div>;
+  }
+
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
     cache: "force-cache",
   });
+
+  if (!res.ok) {
+    return <div>Post not found</div>;
+  }
+
   const post: Post = await res.json();
 
   return (
